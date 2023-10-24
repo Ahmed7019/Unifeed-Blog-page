@@ -533,3 +533,12 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.font-manrope {
+  font-family: Manrope, sans-serif;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}

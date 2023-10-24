@@ -3,9 +3,10 @@ module.exports = {
   content: ["./dist/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: 
-      ['Manrope','sans-serif']
+      fontFamily: {
+     'manrope' : ['Manrope','sans-serif']
     },
+  },
   },
   plugins: [],
 }
