@@ -534,6 +534,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
 .font-manrope {
   font-family: Manrope, sans-serif;
 }
