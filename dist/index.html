@@ -6,44 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unifeed</title>
     <link rel="stylesheet" href="output.css">
+    <link rel="shortcut icon" href="images/Logo.svg" type="image/x-icon">
 </head>
 
 <body class="font-manrope">
-    <header class="pl-20 pr-20 pt-6 pb-6 mb-3">
+    <header class=" p-10 lg:pl-20 lg:pr-20 lg:pt-6 lg:pb-6 lg:mb-3 md:l-20 md:pr-20 md:pt-6 md:pb-6 mb-3">
         <nav>
-            <div class=" flex flex-row justify-between">
+            <div class="flex flex-row justify-between">
                 <a href="#">
                     <img src="images/Logo.svg" alt="unicorn-logo">
                 </a>
 
-                <ul role="list" class=" flex flex-row text-gray-500 text-sm">
+                <ul role="list" class="hidden lg:flex lg:flex-row text-gray-500 text-sm">
                     <li class="p-3 "><a href="#">Home</a></li>
                     <li class="p-3 "><a href="#">Features</a></li>
                     <li class="p-3 "><a href="#">Pricing</a></li>
-                    <li class="p-3 ml-1 bg-orange-500 font-bold border-0 border-solid rounded-md text-black"><a
+                    <li class="p-3 ml-1 bg-orange-500 font-bold border-0 border-solid rounded-md cursor-pointer text-black"><a
                             href="#">Subscribe</a></li>
                 </ul>
+                <div class="block lg:hidden">
+                    <button class="block lg:hidden">
+                        <img src="images/Hamburger Menu.svg" alt="menu">
+                        <ul>
+                            <li class="p-3 "><a href="#">Home</a></li>
+                            <li class="p-3 "><a href="#">Features</a></li>
+                            <li class="p-3 "><a href="#">Pricing</a></li>
+                            <li class="p-3 ml-1 bg-orange-500 font-bold border-0 border-solid rounded-md text-black"><a
+                                    href="#">Subscribe</a></li>
+                        </ul>
+                    </button>
+            </div>
+
             </div>
         </nav>
         </div>
     </header>
     <br>
 
-    <main class="pl-20 pr-20 pt-6 pb-6">
+    <main class=" p-10 lg:pl-20 lg:pr-20 lg:pt-6 lg:pb-6">
         <section>
-            <div class="flex flex-row justify-between ">
-                <img class="w-96" src="images/Main Article Image.png" alt="social media">
+            <div class=" flex lg:flex-row flex-col justify-between ">
+                <img class="lg:w-96 w-max" src="images/Main Article Image.png" alt="social media">
+                <br>
                 <div class="lg:ml-12 flex flex-col justify-between">
                     <div>
-                        <h1 class="text-4xl font-bold pb-5">Weekly Newsletter: Tweets for Higher Engagements</h1>
-                        <p class="text-gray-500 text-xl">
+                        <h1 class="lg:text-4xl md:text-4xl text-2xl font-bold pb-5 md:pb-10 md:pt-10">Weekly Newsletter:
+                            Tweets for Higher Engagements</h1>
+                        <p class="text-gray-500 lg:text-xl md:text-xl pb-5">
                             In this Weekly newsletter, we will be covering tne types of engaging
                             tweets. This is the guid if you're just tarting out on Twitter.
                         </p>
                     </div>
                     <div class="flex flex-row">
                         <img class="w-14 h-14" src="images/User Avatar.png" alt="user avatar">
-                        <div class="lg:ml-5 flex flex-col justify-center align-middle">
+                        <div class="ml-5 flex flex-col justify-center align-middle">
                             <p class="font-bold">Jessica Andrews</p>
                             <p class="text-gray-600">Content Manager</p>
                         </div>
@@ -53,38 +69,42 @@
         </section>
         <br>
         <section class="mt-10">
-            <div class="flex flex-row justify-between">
-                <article class="w-96 flex flex-col justify-between">
-                    <img src="images/Article 1 Image.png" class="w-96" alt="first article">
+            <div class="flex lg:flex-row justify-between flex-col">
+                <article class="lg:w-96 w-full flex flex-col justify-between">
+                    <img src="images/Article 1 Image.png" class="lg:w-96 w-max" alt="first article">
                     <h2 class="font-bold text-4xl pt-5 pb-5">7 Tips for Organic Traffic</h2>
-                    <p class=" mb-4 text-gray-700">From SEO to integrating with paid advertising. this article covers it all.</p>
+                    <p class=" mb-4 text-gray-700">From SEO to integrating with paid advertising. this article covers it
+                        all.</p>
                     <div class="flex flex-row">
                         <img class="w-14 h-14" src="images/User Avatar-1.png" alt="Spencer David">
-                        <div class="lg:ml-5 flex flex-col justify-center align-middle">
+                        <div class="ml-5 flex flex-col justify-center align-middle">
                             <p class="font-bold">Spencer David</p>
                             <p class="text-gray-500">SEO Specialist</p>
                         </div>
                     </div>
                 </article>
-                <article class="w-96  flex flex-col justify-between">
-                    <img src="images/article-2.png" class="w-96" alt="second article">
+                <br>
+                <article class="lg:w-96  flex flex-col justify-between">
+                    <img src="images/article-2.png" class="lg:w-96 w-max" alt="second article">
                     <h2 class="font-bold text-4xl pt-5 pb-5">How to start Your Own Business</h2>
                     <p class=" mb-4 text-gray-700">Starting your own business in 2021 has naver been easire.</p>
-                    <div  class="flex flex-row">
-                        <img class="w-14 h-14"  src="images/User Avatar-2.png" alt="Sara Frey">
-                        <div class="lg:ml-5 flex flex-col justify-center align-middle">
+                    <div class="flex flex-row">
+                        <img class="w-14 h-14" src="images/User Avatar-2.png" alt="Sara Frey">
+                        <div class="ml-5 flex flex-col justify-center align-middle">
                             <p class="font-bold">Sara Frey</p>
                             <p class="text-gray-500">Business Leader</p>
                         </div>
                     </div>
                 </article>
-                <article class="w-96 flex flex-col justify-between">
-                    <img src="images/Article-3.png " class="w-96" alt="third article">
+                <br>
+                <article class="lg:w-96  flex flex-col justify-between">
+                    <img src="images/Article-3.png " class="lg:w-96 w-max" alt="third article">
                     <h2 class="font-bold text-4xl pt-5 pb-5">5 Tips for Better Branding</h2>
-                    <p class=" mb-4 text-gray-700">From SEO to integrating with Padi Advertising, this article covers it all.</p>
+                    <p class=" mb-4 text-gray-700">From SEO to integrating with Padi Advertising, this article covers it
+                        all.</p>
                     <div class="flex flex-row">
                         <img class="w-14 h-14" src="images/User Avatar-3.png" alt="David Suns ">
-                        <div class="lg:ml-5 flex flex-col justify-center align-middle">
+                        <div class="ml-5 flex flex-col justify-center align-middle">
                             <p class="font-bold">David Suns </p>
                             <p class="text-gray-500">Brand Manager</p>
                         </div>
@@ -94,10 +114,10 @@
         </section>
     </main>
     <br>
-    <footer class="pl-20 pr-20 pt-6 pb-6">
-        <div class="flex flex-row justify-between">
+    <footer class=" p-10 md:pl-20 md:pr-20 md:pt-6 pb-6">
+        <div class="flex flex-col md:flex-row justify-between">
             <a href="#"><img src="images/Logo.svg" alt="logo"></a>
-            <p> Unifeed &copy 2017 all copyrights not reserved</p>
+            <p class="capitalize"> Unifeed &copy 2017 all copyrights not reserved</p>
         </div>
     </footer>
 </body>
