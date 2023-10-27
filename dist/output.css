@@ -697,6 +697,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:w-96 {
+    width: 24rem;
+  }
+
   .md\:pb-10 {
     padding-bottom: 2.5rem;
   }
