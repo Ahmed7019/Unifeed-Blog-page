@@ -10,32 +10,21 @@
 </head>
 
 <body class="font-manrope">
-    <header class=" p-10 lg:pl-20 lg:pr-20 lg:pt-6 lg:pb-6 lg:mb-3 md:l-20 md:pr-20 md:pt-6 md:pb-6 mb-3">
+    <header class="p-10 lg:pl-20 lg:pr-20 lg:pt-6 lg:pb-6 lg:mb-3 md:l-20 md:pr-20 md:pt-6 md:pb-6">
         <nav>
-            <div class="flex flex-row justify-between">
+            <div  class="flex justify-between">
                 <a href="#">
                     <img src="images/Logo.svg" alt="unicorn-logo">
                 </a>
 
-                <ul role="list" class="hidden lg:flex lg:flex-row text-gray-500 text-sm">
+                <ul role="list" class="hidden sm:flex flex-row">
                     <li class="p-3 "><a href="#">Home</a></li>
                     <li class="p-3 "><a href="#">Features</a></li>
                     <li class="p-3 "><a href="#">Pricing</a></li>
                     <li class="p-3 ml-1 bg-orange-500 font-bold border-0 border-solid rounded-md cursor-pointer text-black"><a
                             href="#">Subscribe</a></li>
                 </ul>
-                <div class="block lg:hidden">
-                    <button class="block lg:hidden">
-                        <img src="images/Hamburger Menu.svg" alt="menu">
-                        <ul>
-                            <li class="p-3 "><a href="#">Home</a></li>
-                            <li class="p-3 "><a href="#">Features</a></li>
-                            <li class="p-3 "><a href="#">Pricing</a></li>
-                            <li class="p-3 ml-1 bg-orange-500 font-bold border-0 border-solid rounded-md text-black"><a
-                                    href="#">Subscribe</a></li>
-                        </ul>
-                    </button>
-            </div>
+                <img class="sm:hidden" src="images/Hamburger Menu.svg" alt="menu">
 
             </div>
         </nav>
@@ -45,7 +34,7 @@
 
     <main class=" p-10 lg:pl-20 lg:pr-20 lg:pt-6 lg:pb-6">
         <section>
-            <div class=" flex lg:flex-row flex-col justify-between ">
+            <div class="flex lg:flex-row flex-col justify-between ">
                 <img class="lg:w-96 w-max" src="images/Main Article Image.png" alt="social media">
                 <br>
                 <div class="lg:ml-12 flex flex-col justify-between">
@@ -114,9 +103,9 @@
         </section>
     </main>
     <br>
-    <footer class=" p-10 md:pl-20 md:pr-20 md:pt-6 pb-6">
-        <div class="flex flex-col md:flex-row justify-between">
-            <a href="#"><img src="images/Logo.svg" alt="logo"></a>
+    <footer class="p-5 lg:pl-20 lg:pr-20 lg:pt-6 lg:pb-6 lg:mb-3 md:l-20 md:pr-20 md:pt-6 md:pb-6 mb-3">
+        <div class="flex flex-col sm:flex-row justify-between ">
+            <a href="#"><img class="mb-3 sm:mb-0" src="images/Logo.svg" alt="logo"></a>
             <p class="capitalize"> Unifeed &copy 2017 all copyrights not reserved</p>
         </div>
     </footer>
